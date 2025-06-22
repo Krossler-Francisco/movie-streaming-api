@@ -24,9 +24,7 @@ To overcome these problems, the backend employs a **streaming approach** where v
 
 ## How HTTP Range Works
 
-The "streaming" functionality resides in the **HTTP `Range` header**. This HTTP feature allows the client to request only a specific portion of a resource from the server.
-
-Here's how it works:
+The "streaming" functionality reside in the **HTTP `Range` header**. This HTTP feature allows the client to request only a specific portion of a resource from the server.
 
 1.  **Client Request:** When a client wants to stream a video, it typically sends an initial request to the server. If it wants a specific part (e.g., to resume playback or seek), it includes a `Range` header in its HTTP GET request, like this:
     
