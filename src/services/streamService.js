@@ -8,7 +8,7 @@ exports.handleStream = (req, res, filePath) => {
   const range = req.headers.range;
 
   if (!range) {
-    res.status(416).send("Requiere encabezado Range");
+    res.status(416).send("Requiere Range Header");
     return;
   }
 
