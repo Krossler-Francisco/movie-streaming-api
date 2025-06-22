@@ -1,0 +1,17 @@
+{
+  "name": "movie-streaming-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "A simple movie streaming API built with Node.js and Express",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
