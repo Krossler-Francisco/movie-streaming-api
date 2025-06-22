@@ -54,8 +54,6 @@ The "streaming" functionality reside in the **HTTP `Range` header**. This HTTP f
 -   **Express**
 -   **Streaming via Range**
 
-----------
-
 ## Modular Project Structure
 
 -   `routes/`: HTTP endpoints and routes.
