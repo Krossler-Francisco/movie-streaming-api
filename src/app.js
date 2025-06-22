@@ -1,7 +1,7 @@
 const express = require("express");
 const streamRoutes = require("./routes/streamRoutes");
 require("dotenv").config();
-const path = require('path'); // <-- Add this line
+const path = require('path');
 
 const app = express();
 
