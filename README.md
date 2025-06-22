@@ -50,10 +50,9 @@ The "streaming" functionality reside in the **HTTP `Range` header**. This HTTP f
 
 ## Technologies
 
--   **Node.js**: A powerful JavaScript runtime for building scalable network applications.
--   **Express**: A fast, unopinionated, minimalist web framework for Node.js.
--   **Render**: (Deployment) A cloud platform to host and scale your applications.
--   **Streaming via Range**: Leveraging the HTTP `Range` header for efficient partial content delivery.
+-   **Node.js**
+-   **Express**
+-   **Streaming via Range**
 
 ----------
 
